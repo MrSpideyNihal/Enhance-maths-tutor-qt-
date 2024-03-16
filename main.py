@@ -21,7 +21,7 @@ import webbrowser
 
 import gettext
 gettext.bindtextdomain(global_var.app_name, global_var.locale_dir)
-gettext.textdomain(global_var.app_name)g
+gettext.textdomain(global_var.app_name)
 _ = gettext.gettext
 
 language_dict = {"en":"English", "hi":"Hindi", "ar":"Arabic", "ta":"Tamil", "ml":"Malayalam", "sa":"Sanskrit"}
